@@ -1,0 +1,52 @@
+.crud {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+table td {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(54, 135, 211);
+    text-align: center;
+    color: white;
+}
+
+table button {
+    padding: 5px 10px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.edit {
+    border: none;
+    background-color: rgb(7, 60, 129);
+    color: white;
+    padding: 10px;
+    margin: 2px;
+}
+.delete {
+   border: none;
+    background-color: rgb(145, 34, 34);
+    color: white;
+    padding: 10px;
+    margin: 2px;
+}
+
+.addForm {
+    margin-bottom: 30px;
+}
+.addForm input {
+    width: 230px;
+    height: 30px;
+    
+}
+.addForm button {
+    width: 80px;
+    color: white;
+    height: 38px;
+    background-color: rgb(42, 92, 184);
+}
+.addForm button:hover {
+    background-color: rgb(5, 86, 5);
+}
